@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.colored-toast.swal2-icon-error {
+  background-color: #f27474 !important;
+}
+img{
+  width: 100%;
+}
+.colored-toast.swal2-icon-success {
+  background-color: #a5dc86 !important;
+}
