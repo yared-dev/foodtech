@@ -1,4 +1,38 @@
-header{
-	position:"sticky";
-	top:0px	
+header {
+  position: "sticky";
+  top: 0px;
+}
+.center {
+  height: 422px;
+}
+.w100 {
+  text-align: center;
+  width: 100%;
+}
+.btn-radius {
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.bg-primero-image {
+  background: url("../../assets/img/primero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-segundo-image {
+  background: url("../../assets/img/segundo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bg-tercero-image {
+  background: url("../../assets/img/tercero.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 575.98px) {
+  .center {
+    flex-direction: column;
+  }
 }

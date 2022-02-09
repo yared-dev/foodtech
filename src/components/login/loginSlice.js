@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const initialState = {
   isLoading: false,
   isAuth: false,
@@ -11,9 +10,6 @@ const loginSlice = createSlice({
   name: "login",
   initialState,
   reducers: {
-    loginPending: (state) => {
-      state.isLoading = true;
-    },
     loginSuccess: (state) => {
       state.isLoading = false;
       state.isAuth = true;
@@ -27,8 +23,7 @@ const loginSlice = createSlice({
   },
 });
 
-
 export const { loginPending, loginSuccess, loginFail } = loginSlice.actions;
 
 export default loginSlice.reducer;
-export const selectIsAuthenticated = (state) => state.login.isAuth
+export const selectIsAuthenticated = (state) => state.login.isAuth;
