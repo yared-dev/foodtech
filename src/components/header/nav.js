@@ -19,7 +19,7 @@ function NavBar() {
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div class=" p-2">
-              <a class="navbar-brand mt-2 mt-lg-0" href="/">
+              <div class="navbar-brand mt-2 mt-lg-0" href="/">
                 <svg
                   class="me-md-3"
                   preserveAspectRatio="xMidYMid meet"
@@ -46,23 +46,19 @@ function NavBar() {
                   </g>
                 </svg>
                 Foodtech
-              </a>
+              </div>
             </div>
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 p-2">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <div class="nav-link active" aria-current="page">
                   Inicio
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Sobre Nosotros
-                </a>
+                <div class="nav-link">Sobre Nosotros</div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Que Ofrecemos?
-                </a>
+                <div class="nav-link">Que Ofrecemos?</div>
               </li>
             </ul>
             <div class="p-2">

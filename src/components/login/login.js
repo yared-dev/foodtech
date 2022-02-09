@@ -93,7 +93,7 @@ function LoginForm() {
     loginWithEmailAndPassword();
   };
   const rememberEmail = () => {
-    setCheck((check) => !check);
+    setCheck((e) => !check);
   };
 
   return (
